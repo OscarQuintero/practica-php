@@ -38,6 +38,8 @@ h1,h2,h3 {
 }
 
 #agenda {
+	table-layout: fixed;
+	border-collapse: collapse;
 	width: 80%;
 	margin: auto;
 	border-style: solid;
