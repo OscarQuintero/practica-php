@@ -1,0 +1,53 @@
+body {
+	background-color: white;
+	/*rgba(194,230,122);*/
+	font-family: "Helvetica", sans-serif;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+
+#formulario-agenda {
+	border-style: solid;
+	border-color: black;
+	width: 40%;
+	margin: auto;
+	padding: 1em;
+}
+
+#formulario-agenda label {
+	color: gray;
+	display: block;
+	width: 20%;
+}
+#formulario-agenda label.check-label {
+	color: gray;
+	display: initial;
+	width: 20%;
+}
+
+#formulario-agenda input {
+	display: block;
+	width: 95%;
+	font-size: 1em;
+}
+#formulario-agenda .check {
+	display: initial;
+	width: auto;
+}
+
+#agenda {
+	width: 80%;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+}
+
+#agenda td {
+	text-align: center;
+	font-size: 1em;
+	padding: 0.2em;
+	border-style: solid;
+	border-color: black;
+}
